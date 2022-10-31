@@ -1,0 +1,7 @@
+(400,700)
+
+@import url('https://webfontworld.github.io/sebang/SebangGothic.css');
+
+font-family: 'SebangGothic';
+
+<link href="https://webfontworld.github.io/sebang/SebangGothic.css" rel="stylesheet">

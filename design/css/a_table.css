@@ -1,0 +1,11 @@
+body{text-align: center;}
+.PC{
+    display:block;
+    width:1920px;
+    margin:0 auto;
+}
+.Mobile{
+    display:block;
+    width:1248px;
+    margin:0 auto;
+}

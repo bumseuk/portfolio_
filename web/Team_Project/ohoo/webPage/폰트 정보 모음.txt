@@ -1,0 +1,37 @@
+-동화약품-
+
+●기본서체 Gothic_A1(100~900)
+
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+font-family: 'Gothic A1', sans-serif;
+
+<link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+●그래픽 서체 Nanum_Myeongjo(400,700,800)
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+
+font-family: 'Nanum Myeongjo', serif;
+
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+
+
+-활명수-
+
+●Pretendard(100~900)
+
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.5/dist/web/static/pretendard.css");
+
+font-family: 'Pretendard';
+
+<link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.5/dist/web/static/pretendard.css" />
+
+
+●SEBANG Gothic(400,700)
+
+@import url('https://webfontworld.github.io/sebang/SebangGothic.css');
+
+font-family: 'SebangGothic';
+
+<link href="https://webfontworld.github.io/sebang/SebangGothic.css" rel="stylesheet">
