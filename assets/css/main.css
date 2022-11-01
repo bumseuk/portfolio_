@@ -2403,6 +2403,25 @@ input, select, textarea {
 
 	@media screen and (max-width: 736px) {
 
+		/*추가*/
+		.style4>a{
+			transform:scale(80%);
+			filter:none;
+			transition:all .4s;
+		}
+		.style4>a:hover{
+			filter:grayscale(80%);
+		}
+		.style5>a{
+			transform:scale(80%);
+			filter:none;
+			transition:all .4s;
+		}
+		.style5>a:hover{
+			filter:grayscale(80%);
+		}
+		/*추가 끝*/
+
 		/* Basic */
 
 			body {
