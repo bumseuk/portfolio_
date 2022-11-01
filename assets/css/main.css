@@ -2048,9 +2048,11 @@ input, select, textarea {
 		.style5{position:relative;}
 		.style5>h3{
 			position:absolute;
-			top:29%; left:50%;
+			top:2%; left:50%;
 			transform:translateX(-50%);
 			font-size:1.5em;
+			display:block;
+			width:100%;
 		}
 		.style5>div{
 			display:flex;
@@ -2074,9 +2076,11 @@ input, select, textarea {
 		.style4{position:relative;}
 		.style4>h3{
 			position:absolute;
-			top:32%; left:50%;
+			top:2%; left:50%;
 			transform:translateX(-50%);
 			font-size:1.5em;
+			display:block;
+			width:100%;
 		}
 		.style4>div{
 			display:flex;
