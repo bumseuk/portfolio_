@@ -2102,6 +2102,21 @@ input, select, textarea {
 			font-weight:600;
 		}
 
+		.style5>a{
+			filter:grayscale(80%);
+			transition:all .4s;
+		}
+		.style5>a:hover{
+			filter:none;
+		}
+		.style4>a{
+			filter:grayscale(80%);
+			transition:all .4s;
+		}
+		.style4>a:hover{
+			filter:none;
+		}
+
 		.web{
 			font-size:1.25em;
 			margin-top:50px;
