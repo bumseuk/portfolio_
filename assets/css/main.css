@@ -1637,6 +1637,8 @@ input, select, textarea {
 			width: 100%;
 		}
 		/*추가*/
+		#top{background:url(../../images/top_bg2.png) no-repeat center/100%;}
+
 		#top>.container>.row>.col-8{
 			position:absolute;
 			top:50%; left:50%;
@@ -2346,6 +2348,11 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		/*추가*/
+
+		#top>.container>.row>.col-8{
+			margin:4% auto 0;
+		}
+
 		.style4>a{
 			transform:scale(80%);
 			filter:none;
