@@ -1,4 +1,6 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
 div{
-    width:1920px;
+    width:100%;
     margin:0 auto;
 }
+div>img{width:100%;}

@@ -1985,7 +1985,7 @@ input, select, textarea {
 			width:7%;
 			height:65%;
 			margin-right:10px;
-			margin-bottom:-6px;
+			margin-bottom:-1%;
 		}
 		.style4>div>p>.use:last-child{margin-right:0px;}
 
@@ -2333,7 +2333,7 @@ input, select, textarea {
 				}
 				.style4>div>p>.use{
 					width:7%;
-					margin-bottom:-8px;
+					margin-bottom:-1%;
 				}
 				
 				.style4>div>p>.use_icon{
@@ -2385,7 +2385,7 @@ input, select, textarea {
 
 		.style4>div>p>.use{
 			width:4%;
-			margin-bottom:-8px;
+			margin-bottom:-0.8%;
 		}
 		
 		.style4>div>p>.use_icon{

@@ -39,6 +39,19 @@ a:link,a:visited,a:hover,a:active{color:#333;}
 /*헤더 공통영역*/
 .headerWrap{position:relative;}
 
+/*util*/
+#util>li:nth-child(1){
+    width:20px; height:80px;
+    background:url(../images/icon/search.png) no-repeat center/80%;
+    margin-right:20px;
+}
+#util>li:nth-child(2){
+    width:32px; height:80px;
+    background:url(../images/icon/user.png) no-repeat center/80%;
+    margin-right:10px;
+}
+
+
 /*베스트 상품 공통영역*/
 #bestProduct>h2{
 	display:none;
@@ -58,7 +71,7 @@ a:link,a:visited,a:hover,a:active{color:#333;}
     background-color:aquamarine;
 }
 #bestProduct>ul>li:nth-child(2){
-    background-image:url('./images/icon/fruit02.png');
+    background-image:url('../images/icon/fruit02.png');
     background-color:violet;
 }
 #bestProduct>ul>li:nth-child(3){

@@ -2,3 +2,5 @@ div{
     width:1430px;
     margin:0 auto;
 }
+
+div>img{width:100%;}
