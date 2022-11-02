@@ -1655,7 +1655,7 @@ input, select, textarea {
 		.image.featured {
 			display: block;
 			width: 100%;
-			margin: 0 0 2em 0;
+			margin: 1.1em 0 2em 0;
 			/*추가*/
 			overflow:hidden;
 			/*추가 끝*/
@@ -1949,21 +1949,13 @@ input, select, textarea {
 			text-align:center;
 		}
 
-		.wrapper.style2 > .container > .row.aln-center{
-			margin-left:23px;
-		}
-
 		.row1{
 			display:flex;
 			flex-flow:row wrap;
 			justify-content:center;
 		}
 
-		.one{padding-bottom:0.1em;}
-
 		.style4>a{transform:translateY(-12%);}
-
-		.style4>div>.use:last-child{margin-right:0px;}
 
 		.style4{position:relative;}
 		.style4>h3{
@@ -1995,6 +1987,14 @@ input, select, textarea {
 		}
 		.style4>div>p>.use:last-child{margin-right:0px;}
 
+		
+		.style4>div>p>.use_icon{
+			width:15%;
+			height:65%;
+			margin-right:5px;
+			margin-bottom:-19px;
+		}
+
 		.style4>p{
 			color:#444;
 			font-size:1.1em;
@@ -2021,7 +2021,9 @@ input, select, textarea {
 			border:solid 3px #000;
 			border-radius:30px;
 			transition:all .3s;
+			margin-right:10px;
 		}
+		.style4>.button:last-child{margin-right:0;}
 		.style4>.button:hover{
 			cursor:pointer;
 			background-color:#fff;
@@ -2285,6 +2287,10 @@ input, select, textarea {
 			width:8%;
 			margin-bottom:-5px;
 		}
+		
+		.style4>div>p>.use_icon{
+			margin-bottom:-14px;
+		}
 
 		/*추가 끝*/
 
@@ -2326,6 +2332,10 @@ input, select, textarea {
 				.style4>div>p>.use{
 					width:7%;
 					margin-bottom:-8px;
+				}
+				
+				.style4>div>p>.use_icon{
+					margin-bottom:-6%;
 				}
 				/*추가 끝*/
 
@@ -2369,6 +2379,11 @@ input, select, textarea {
 		.style4>div>p>.use{
 			width:4%;
 			margin-bottom:-8px;
+		}
+		
+		.style4>div>p>.use_icon{
+			width:12%;
+			margin-bottom:-5%;
 		}
 
 		/*추가 끝*/
