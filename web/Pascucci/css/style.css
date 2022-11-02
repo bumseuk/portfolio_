@@ -53,6 +53,7 @@ h3.title>span{
 
 /*헤더 영역*/
 #header{
+    width:100%;
     height:120px;
     background:#000;
 }
@@ -84,7 +85,11 @@ h3.title>span{
     margin-bottom:20px;}
 
 /*라인배너 영역*/
-#line{height:150px; background:#d0112b;}
+#line{
+    height:150px;
+    background:#d0112b;
+    overflow:hidden;
+}
 #line>.wrapper{
     justify-content:space-between;
     font-family: 'Nanum Gothic', sans-serif;
@@ -329,4 +334,5 @@ footer>div.wrapper address{
     .sns_wrap{margin-top:25px;}
     footer>div.wrapper>ul:last-child>li:nth-child(2){
         width:70%;
+    }
 }

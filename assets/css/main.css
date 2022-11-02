@@ -1959,6 +1959,8 @@ input, select, textarea {
 			justify-content:center;
 		}
 
+		.one{padding-bottom:0.1em;}
+
 		.style4>a{transform:translateY(-12%);}
 
 		.style4>div>.use:last-child{margin-right:0px;}
@@ -1979,6 +1981,10 @@ input, select, textarea {
 			color:#444;
 			text-align:left;
 			margin:10px 0 15px;
+		}
+
+		.style4>.use_l.D{
+			font-size:1.1em;
 		}
 
 		.style4>div>p>.use{
@@ -2009,7 +2015,7 @@ input, select, textarea {
 			font-size:1em;
 			font-weight:600;
 			width:28%;
-			height:25px;
+			height:30px;
 			line-height:18px;
 			text-align:center;
 			border:solid 3px #000;
@@ -2273,6 +2279,15 @@ input, select, textarea {
 					padding: 2em 0 2em 0;
 				}
 
+		/*추가*/
+
+		.style4>div>p>.use{
+			width:8%;
+			margin-bottom:-5px;
+		}
+
+		/*추가 끝*/
+
 		/* Articles */
 
 			#top {
@@ -2301,6 +2316,18 @@ input, select, textarea {
 				#top .image {
 					margin: 0 auto 2em auto;
 				}
+				/*추가*/
+				.style4>h3{
+					text-align:left;
+					font-size:1.5em;
+					display:block;
+					margin-top:-65px;
+				}
+				.style4>div>p>.use{
+					width:7%;
+					margin-bottom:-8px;
+				}
+				/*추가 끝*/
 
 	}
 
@@ -2317,6 +2344,33 @@ input, select, textarea {
 		.style4>a:hover{
 			filter:grayscale(80%);
 		}
+		.style4>h3{
+			text-align:center;
+			font-size:2.5em;
+			display:block;
+			margin-top:-70px;
+		}
+
+		.style4>.button{
+			width:20%;
+		}
+
+		.style4>.use_l{
+			font-size:1.2em;
+			text-align:center;
+			margin:30px 0 15px;
+			line-height:1.8em;
+		}
+
+		.style4>.use_l.D{
+			font-size:1.2em;
+		}
+
+		.style4>div>p>.use{
+			width:4%;
+			margin-bottom:-8px;
+		}
+
 		/*추가 끝*/
 
 		/* Basic */
