@@ -34,6 +34,14 @@
         justify-content:space-between;
         align-items:center;
     }
+
+    #logo{
+        width:10%;
+        height:80px;
+        background:url(../images/icon/logo.png) no-repeat center/130%;
+        cursor:pointer;
+    }
+
     #gnb{display:flex !important;}
     /* mobile로 갔을 때 flex 아니고 세로로 배치 해야하기 때문에 pc에서는 가로로 보이게 하려고flex에 important적용 시켜줌.
     moblie 나중에 import 되어 있기 때문에 우선순위가 밀릴 수도  있다.. 여러가지 복합적 이유로 일부러 important 키워드로 최상위 우선순위를 갖게함.*/

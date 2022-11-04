@@ -2363,13 +2363,14 @@ input, select, textarea {
 		}
 		.style4>h3{
 			text-align:center;
-			font-size:2.5em;
+			font-size:2.2em;
 			display:block;
-			margin-top:-70px;
+			margin-top:-60px;
 		}
 
 		.style4>.button{
 			width:20%;
+			font-size:0.8em;
 		}
 
 		.style4>.use_l{
@@ -2384,13 +2385,20 @@ input, select, textarea {
 		}
 
 		.style4>div>p>.use{
-			width:4%;
-			margin-bottom:-0.8%;
+			width:18px;
+			margin-bottom:-0.5%;
 		}
 		
 		.style4>div>p>.use_icon{
 			width:12%;
 			margin-bottom:-5%;
+		}
+
+		@media screen and (max-width: 500px){
+			.style4>div>p>.use{
+				width:16px;
+				margin-bottom:-0.8%;
+			}
 		}
 
 		/*추가 끝*/

@@ -40,13 +40,14 @@ a:link,a:visited,a:hover,a:active{color:#333;}
 .headerWrap{position:relative;}
 
 /*util*/
+#util>li:hover{cursor:pointer;}
 #util>li:nth-child(1){
-    width:20px; height:80px;
+    width:17px; height:80px;
     background:url(../images/icon/search.png) no-repeat center/80%;
     margin-right:20px;
 }
 #util>li:nth-child(2){
-    width:32px; height:80px;
+    width:45px; height:80px;
     background:url(../images/icon/user.png) no-repeat center/80%;
     margin-right:10px;
 }
@@ -67,19 +68,19 @@ a:link,a:visited,a:hover,a:active{color:#333;}
     background:url() no-repeat green right top;
 }
 #bestProduct>ul>li:nth-child(1){
-    background-image:url('../images/icon/fruit01.png');
-    background-color:aquamarine;
+    background-image:url('../images/icon/sushi04.png');
+    background-color:lightcoral;
 }
 #bestProduct>ul>li:nth-child(2){
-    background-image:url('../images/icon/fruit02.png');
-    background-color:violet;
+    background-image:url('../images/icon/sushi03.png');
+    background-color:lightpink;
 }
 #bestProduct>ul>li:nth-child(3){
-    background-image:url('../images/icon/fruit03.png');
-    background-color:yellowgreen;
+    background-image:url('../images/icon/sushi02.png');
+    background-color:lightgoldenrodyellow;
 }
 #bestProduct>ul>li:nth-child(4){
-    background-image:url('../images/icon/fruit04.png');
+    background-image:url('../images/icon/sushi01.png');
     background-color:antiquewhite;
 }
 #bestProduct>ul>li>a{
@@ -145,7 +146,7 @@ h2.title + h3{
 }
 #lineBanner>div:first-child{
     width:100%;
-    background:url('../images/banana.jpg') no-repeat center/cover;
+    background:url('../images/sushi05.jpg') no-repeat center/cover;
 }
 #lineBanner>div:last-child{
     width:100%;
@@ -201,14 +202,14 @@ hr{
     background:url() no-repeat center/cover;
 }
 #picCircle>div:nth-child(1)>a>.circle_img{
-    background-image:url('../images/circle01.png');
+    background-image:url('../images/sushi10.png');
 }
 #picCircle>div:nth-child(2)>a>.circle_img{
-    background-image:url('../images/circle02.png');
+    background-image:url('../images/sushi11.png');
     bottom:-70%;
 }
 #picCircle>div:nth-child(3)>a>.circle_img{
-    background-image:url('../images/circle03.png');
+    background-image:url('../images/sushi12.png');
 }
 #picCircle>div>a{
     display:block;
@@ -231,9 +232,9 @@ hr{
     overflow:hidden;
 }
 #picCircle>div>a>div.circle_txt h4{
-    font-size:1.8rem;
+    font-size:1.5rem;
     font-weight:bold;
-    margin:40px 0;
+    margin:60px 0 20px;
 }
 #picCircle>div>a>div.circle_txt p{
     font-size:0.9rem;
@@ -247,10 +248,10 @@ hr{
 /*이미지 배너 영역*/
 
 #imgBanner{
-    background-image:url('../images/bgimg01.jpg'),
+    background-image:
     url('../images/bgimg02.jpg');
-    background-repeat:no-repeat, no-repeat;
-    background-position:30% top, 60% 30%;
+    background-repeat:no-repeat;
+    background-position:60% 30%;
     height:900px;
     position:relative;
 }

@@ -31,6 +31,14 @@
         display:block;
     }
     #menu>span:nth-child(2){margin:7px 0;}
+
+    #logo{
+        width:120px;
+        height:80px;
+        background:url(../images/icon/logo.png) no-repeat center/100%;
+        cursor:pointer;
+    }
+
     .aniMenu{
         position:relative;
         width:100%;
